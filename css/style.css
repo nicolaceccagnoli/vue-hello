@@ -36,3 +36,18 @@ div img {
     width: 900px;
     height: 500px;
 }
+
+#saluto {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://i.ytimg.com/vi/nxdtLJnCKqk/maxresdefault.jpg);
+}
+
+h3 {
+    font-size: 48px;
+    font-style: italic;
+    color: rgba(159, 0, 0, 0.867);
+}

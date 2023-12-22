@@ -13,19 +13,25 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header id="image">
 
         <!-- Qui stamperò il messaggio in pagina -->
-        <h1>
+        <h1 :class="getTextProperty()"  >
             {{ message }}
         </h1>
         
 
-       <div id="image">
+       <div :class="getDivClasses()">
             <img :src="img" alt="">
        </div> 
 
     </header>
+
+    <footer id="saluto">
+        <h3>
+            {{ saluto }}
+        </h3>
+    </footer>
 
     <!-- Vue -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
