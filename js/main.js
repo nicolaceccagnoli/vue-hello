@@ -13,7 +13,16 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            message: 'Bellissimo Vue spero di riuscire a stampre questo messaggio in pagina'
+            message: 'Ecco a voi un mio selfie:'
         }
     }
 }).mount('h1');
+
+// Costruisco la funzione "Print Img"
+createApp ({
+    data() {
+        return{
+            img: 'https://myredcarpet.eu/wp-content/uploads/2022/08/bullet-train.jpg'
+        }
+    }
+}).mount('#image')

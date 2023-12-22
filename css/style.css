@@ -3,7 +3,7 @@
 */
 /* @import url(media.css); */
 /* @import url(12bool.css); */
-@import url(useful.css);
+/* @import url(useful.css); */
 
 /* 
     RESET
@@ -29,5 +29,10 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
+div img {
+    width: 900px;
+    height: 500px;
+}
